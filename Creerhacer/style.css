@@ -1,0 +1,35 @@
+footer{
+	clear: both;
+	background: #78e2cd;
+	height: 11%;
+	max-height: 500px;
+	width: 100%;
+}
+#footer-enviar{
+	color: #ffb16d;
+	text-align: center;
+	height:30px ;
+	width:30% ;
+	max-height: ;
+	max-width: ;
+}
+#contactanos{
+clear: right;
+}
+#maps{
+	height: 200px;
+	width: 200px;
+	margin: 0px;
+	border-right: 0px;
+}
+#pie{
+	position: absolute;
+	color: red;
+	height:20%;
+	width: 100%;
+	max-height:;
+
+}
+#contenido{
+	float: left;
+}
