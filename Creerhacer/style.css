@@ -62,7 +62,5 @@ body{
 
 }
 .checkbox{
-	height: 5%;
-	width: 5%;
-	box-decoration-break: slice;
+
 }
