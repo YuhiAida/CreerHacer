@@ -5,6 +5,8 @@ footer{
 	height: 11%;
 	max-height: 500px;
 	width: 100%;
+	display: inline-block;
+
 }
 #footer-enviar{
 	background-color: #E79462;
@@ -13,11 +15,25 @@ footer{
 	width:30% ;
 	border: none;
 	display: block;
-}
-#contactanos{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
 
 }
+#contactanos{
+display: block;
+width:30% ;
+margin-right: 0px;
+display: inline;
+}
+#contactanos, span,{
+	
+}
 #maps{
+height: 30%;
+width: 40%;
+padding: 0px;
+
 
 }
 #pie{
