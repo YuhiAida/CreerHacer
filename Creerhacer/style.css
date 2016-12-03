@@ -18,10 +18,14 @@ footer{
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
-
+}
+#footer-enviar a{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	text-decoration: none;
 }
 #contactanos{
-display: block;
 width:30% ;
 margin-right: 0px;
 display: inline;
@@ -53,4 +57,12 @@ body{
 .span{
 	margin: 2px;
 	color: white;
+}
+#contenido-footer{
+
+}
+.checkbox{
+	height: 5%;
+	width: 5%;
+	box-decoration-break: slice;
 }

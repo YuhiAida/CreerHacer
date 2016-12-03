@@ -13,31 +13,48 @@
 	<title></title>
 </head>
 <body>
-
 	<footer>
+		<!--Footer-->
 		<section id="contenido-footer">
+			<!--Google Maps por agregar-->
 			<div id="maps">
+				<!--Contacto-->
+				<address>
 				<p>info@creerhacer.com.ar</p>
 				<h4>Coronel Bogado 571 - Boulogne, San Isidro</h4>
+				</address>
 			</div>
-			<div id="contactanos">
+			<!--Formulario de contacto-->
+			<form id="contactanos" action="http://google.com">
 			<h2>Contactanos</h2>
 				<span>
 					<p class="span">Mail</p>
-					<input type="text" name="mail">
+					<input type="mail" name="mail"">
 				</span>
 
 				<span>
 					<p class="span">Nombre completo</p>
 					<input type="text" name="nombre-completo">
 				</span>
+				<!--Opciones con checkbox-->
+				<div id="opciones">
+					<label for="">Soy de una Organizacion</label>
+					<input type="checkbox" name="Organizacion" class="checkbox">
 
+					<label>Soy de una Empresa</label>
+					<input type="checkbox" name="Empresa" class="checkbox">
+
+					<label>Otro</label>
+					<input type="checkbox" name="Otro" class="checkbox">
+				</div>
 				<span>
 					<p class="span">Mensaje</p>
 					<input type="text" name="mensaje">
-					<button id="footer-enviar">Enviar</button>
 				</span>
-			</div>	
+					<!--el boton enviar necesita un script-->
+					<button id="footer-enviar">Enviar</button>
+			</form>	
+			<!--El pie es la parte gris del footer, esta dividido en 3 partes(logo, texto y redes sociales.)-->
 			<div id="pie">
 				<div class="pie" ">
 					
@@ -52,6 +69,8 @@
 				</div>
 			
 			</div>
+
+
 		</section>	
 	</footer>
 </body>
