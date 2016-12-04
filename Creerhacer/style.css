@@ -6,6 +6,7 @@ footer{
 	max-height: 500px;
 	width: 100%;
 	display: inline-block;
+	color: white;
 
 }
 #footer-enviar{
@@ -15,15 +16,9 @@ footer{
 	width:30% ;
 	border: none;
 	display: block;
-	color: white;
 	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
-}
-#footer-enviar a{
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-weight: lighter;
-	text-decoration: none;
+	color:white;
 }
 #contactanos{
 width:30% ;
@@ -48,6 +43,7 @@ padding: 0px;
 	min-height: 50%
 	max-height:50px;
 	clear: both;
+	text-align: center;
 
 }
 body{
@@ -56,11 +52,39 @@ body{
 }
 .span{
 	margin: 2px;
-	color: white;
+}
+input{
+	border:0px; 
 }
 #contenido-footer{
 
 }
 .checkbox{
 
+}
+.texto-label{
+
+}
+#twitter{
+background-image: url("assets/twitter_circle_color-256-3.png");
+}
+#facebook{
+background-image: url('assets/facebook-circle.png');
+}
+#youtube{
+background-image: url('assets/youtube_circle_color-512-2.png');
+}
+#footer-wrap-social{
+    margin-right: 5px;
+    width: 18.8%;
+    float: right;
+}
+#footer-wrap-social a{
+	float: left;
+    height: 41px;
+    margin-right: 3%;
+    width: 29%;
+}
+.social{
+	background-repeat: no-repeat;
 }
