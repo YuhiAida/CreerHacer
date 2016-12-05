@@ -1,90 +1,23 @@
-footer{
-	font-family: 'Lato', sans-serif;
-	clear: both;
-	background: #70CAC1;
-	height: 11%;
-	max-height: 500px;
-	width: 100%;
-	display: inline-block;
-	color: white;
-
-}
-#footer-enviar{
-	background-color: #E79462;
-	text-align: center;
-	height:30px ;
-	width:30% ;
-	border: none;
-	display: block;
-	font-family: 'Lato', sans-serif;
-	font-weight: lighter;
-	color:white;
-}
-#contactanos{
-width:30% ;
-margin-right: 0px;
-display: inline;
-}
-#contactanos, span,{
-	
-}
-#maps{
-height: 30%;
-width: 40%;
-padding: 0px;
-
-
-}
-#pie{
-	position: absolute;
-	background-color: #6C6C6C;
-	height:10%;
-	width: 70%;
-	min-height: 50%
-	max-height:50px;
-	clear: both;
-	text-align: center;
-
-}
 body{
-	margin-left: 15%;
-	margin-right: 15%;
+	color: white;
+	font-family: 'Lato', sans-serif;
 }
-.span{
-	margin: 2px;
+#pre-footer{
+	background-color: #70CAC1;
+}
+.footer-container{
+	background-color: #6C6C6C;
+	height: 70px;
+}
+#map{
+	background-image: url('maps.png');
+	height: 212px;
+    width: 43%;
+}
+#submit{
+	background-color: #E79462;
+	border:0px;
 }
 input{
-	border:0px; 
-}
-#contenido-footer{
-
-}
-.checkbox{
-
-}
-.texto-label{
-
-}
-#twitter{
-background-image: url("assets/twitter_circle_color-256-3.png");
-}
-#facebook{
-background-image: url('assets/facebook-circle.png');
-}
-#youtube{
-background-image: url('assets/youtube_circle_color-512-2.png');
-}
-#footer-wrap-social{
-    margin-right: 5px;
-    width: 18.8%;
-    float: right;
-}
-#footer-wrap-social a{
-	float: left;
-    height: 41px;
-    margin-right: 3%;
-    width: 29%;
-}
-.social{
-	background-repeat: no-repeat;
+	border:0px;
 }

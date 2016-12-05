@@ -9,71 +9,51 @@
 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 	<script src='jquery-3.1.0.min.js'></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-
-	<title></title>
+	<script type="text/javascript" src="prefixfree.min.js"></script>
+	<title>Creer Hacer</title>
 </head>
-<body>
-	<footer>
-		<!--Footer-->
-		<section id="contenido-footer">
-			<!--Google Maps por agregar-->
-			<div id="maps">
-				<!--Contacto-->
-				<address>
-				<p>info@creerhacer.com.ar</p>
-				<h4>Coronel Bogado 571 - Boulogne, San Isidro</h4>
-				</address>
-			</div>
-			<!--Formulario de contacto-->
-			<form id="contactanos" action="http://google.com">
-			<h2>Contactanos</h2>
-				<span>
-					<p class="span">Mail</p>
-					<input type="mail" name="mail"">
-				</span>
+<body class="Site">
+	<header>Creer Hacer</header>
+	<main class="Site-content"></main>
+		<section id="pre-footer">
+			<section >
+				<div id="map"></div>
+				<div>info@creerhacer.com.ar</div>
+				<div>Coronel Bogado 571 - Boulogne, San Isidro</div>
+			</section>
 
-				<span>
-					<p class="span">Nombre completo</p>
-					<input type="text" name="nombre-completo">
-				</span>
-				<!--Opciones con checkbox-->
-				<div id="opciones">
-					<label class="texto-label">Soy de una Organizacion</label>
-					<input type="checkbox" name="Organizacion" class="checkbox">
+			<section class="contacto">
+				<span id="contacto" class="anchor"></span>
+		     	 <h2 class="contacto-title">Contactanos</h2>
+			      <form method="post" action="send.php" name="contactform" class="contacto-form">
+			        <div class="contacto-form-column u-m-r-5">
+			          <label class="contacto-form-label">Mail</label><br>
+			          <input type="mail" name="mail" id="mail" pattern="^[A-Za-z0-9](([_.-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([.-]?[a-zA-Z0-9]+)*).([A-Za-z]{2,})$" required="required" class="contacto-form-input"><br>
+			          <label class="contacto-form-label">Nombre Completo</label><br>
+			          <input type="text" name="nombre" id="name" required="required" class="contacto-form-input"><br>
+			          Soy de una organización
+			          <input type="checkbox" class="contacto-form-input">
+			          Soy una Empresa
+			          <input type="checkbox" class="contacto-form-input">
+			          Otro
+			          <input type="checkbox" class="contacto-form-input">
+			        </div>
 
-					<label class="texto-label">Soy de una Empresa</label>
-					<input type="checkbox" name="Empresa" class="checkbox">
+			        <div class="contacto-form-column">
+			          <label class="contacto-form-label">Mensaje:</label><br>
+			          <input type="text" name="comentario" id="comments"</input><br>
+			          <button type="submit" value="Enviar" id="submit" class="contacto-button">Enviar</button>
+			        </div>
+			      </form>
+		    </section>
+	    </section>
 
-					<label class="texto-label">Otro</label>
-					<input type="checkbox" name="Otro" class="checkbox">
-				</div>
-				<span>
-					<p class="span">Mensaje</p>
-					<input type="text" name="mensaje">
-				</span>
-				<!--el boton enviar necesita un script-->
-				<button id="footer-enviar">Enviar</button>
-			</form>	
-			<!--El pie es la parte gris del footer, esta dividido en 3 partes(logo, texto y redes sociales.)-->
-			<div id="pie">
-				<div class="pie" ">
-					
-				</div>
-
-				<div class="pie">
-					<p>Hecha con <3 por www.Prinsett.com y colaboradores:</p>
-				</div>
-
-				<div id="footer-wrap-social">
-					<a href="https://twitter.com/CreerHacer" target="_blank" id="twitter" class="social"></a>
-					<a href="https://www.facebook.com/CreerHacer/" target="_blank" id="facebook" class="social"></a>
-					<a href="https://www.youtube.com/channel/UCd_-XOq5iZEQEdT66HaKfEQ" target="_blank" id="youtube" class="social"></a>
-				</div>
-			
-			</div>
-
-
-		</section>	
-	</footer>
+	    <footer>
+	    	<div class="footer-container">
+	    		<div></div>
+	    		<div></div>
+	    		<div></div>
+	    	</div>
+	    </footer>
 </body>
 </html>
