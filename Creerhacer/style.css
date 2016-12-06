@@ -3,6 +3,7 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 #pre-footer{
+	display: flex;
 	background-color: #70CAC1;
 }
 .footer-container{
@@ -20,4 +21,8 @@ body{
 }
 input{
 	border:0px;
+}
+.contacto{
+	display: flex;
+	flex-direction: column;
 }
