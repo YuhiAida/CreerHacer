@@ -3,7 +3,14 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 #pre-footer{
-	display: flex;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
 	background-color: #70CAC1;
 }
 .footer-container{
@@ -11,9 +18,8 @@ body{
 	height: 70px;
 }
 #map{
-	background-image: url('maps.png');
-	height: 212px;
-    width: 43%;
+	display: flex;
+
 }
 #submit{
 	background-color: #E79462;
@@ -23,6 +29,8 @@ input{
 	border:0px;
 }
 .contacto{
-	display: flex;
-	flex-direction: column;
+
+}
+.contacto-form{
+	align-items: flex-end;
 }
