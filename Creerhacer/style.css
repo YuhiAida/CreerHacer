@@ -2,24 +2,31 @@ body{
 	color: white;
 	font-family: 'Lato', sans-serif;
 }
+.Site-content{
+	display: -webkit-flex;
+    display: flex;
+	height: 1000px;
+	width: 100%;
+}
 #pre-footer{
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
+	display: -webkit-flex;
+    display: flex;
 	background-color: #70CAC1;
+	flex-wrap: wrap;
 }
 .footer-container{
+	display: -webkit-flex;
+    display: flex;
 	background-color: #6C6C6C;
-	height: 70px;
+	width: 100%;
+	height: 100px;
 }
-#map{
+.map-info{
+	display: -webkit-flex;
 	display: flex;
-
+	-webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 #submit{
 	background-color: #E79462;
@@ -29,8 +36,11 @@ input{
 	border:0px;
 }
 .contacto{
-
+	display: -webkit-flex;
+	display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }
 .contacto-form{
-	align-items: flex-end;
+	
 }
