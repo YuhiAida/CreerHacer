@@ -95,7 +95,8 @@ div .footer-texto{
 	align-items: flex-end;
 	padding-bottom: 0px;
 }
-
+iframe{
+	border-radius: 15px;
 
 .transformadores-sociales{
 
