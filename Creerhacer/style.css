@@ -95,3 +95,26 @@ div .footer-texto{
 	align-items: flex-end;
 	padding-bottom: 0px;
 }
+
+
+.transformadores-sociales{
+
+	position: relative;
+}
+
+.fondo{
+
+	width: 100%;
+	border-top: 15px solid #EE9661;
+	
+}
+
+.transformadores-sociales-content{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	
+
+}
