@@ -116,16 +116,30 @@ div .footer-texto{
 iframe{
 	border-radius: 15px;
 }
+
+/* Seba */
 .transformadores-sociales{
 
 	position: relative;
+	width: 100%;
+	margin-bottom: 100px;
 }
 
 .fondo{
 
 	width: 100%;
+	height: 100%;
 	border-top: 15px solid #EE9661;
-	
+}
+
+.fondo-content{
+		background: -moz-linear-gradient(358deg, rgba(238,150,97,1) 0%, rgba(232,229,227,1) 41%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(238,150,97,1)), color-stop(41%, rgba(232,229,227,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(358deg, rgba(238,150,97,1) 0%, rgba(232,229,227,1) 41%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(358deg, rgba(238,150,97,1) 0%, rgba(232,229,227,1) 41%); /* opera 11.10+ */
+background: -ms-linear-gradient(358deg, rgba(238,150,97,1) 0%, rgba(232,229,227,1) 41%); /* ie10+ */
+background: linear-gradient(92deg, rgba(238,150,97,1) 0%, rgba(232,229,227,1) 41%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE9661', endColorstr='#E8E5E3',GradientType=1 ); /* ie6-9 */
 }
 
 .transformadores-sociales-content{
@@ -133,7 +147,39 @@ iframe{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	left: 37%;
 	transform: translateX(-50%) translateY(-50%);
-	
+}
+.transformadores-sociales-logo{
+	display: inline-block;
+	float: right;
+	margin:2% 6%;
+	width: 25%;
+}
+.img-logo{
+	width: 100%;
+}
+
+.link-inscribite{
+
+	font-size: 22px;
+	text-decoration:none;  
+	color: white;
+	background-color: #42B0A9;
+
+	padding: 6px 50px;
+
+	border-radius: 4px;
+}
+
+.tit-agente-cambio{
+
+	font-size: 28px;
+}
+
+.p-agente-cambio{
+	font-size: 18px;
+
+
 
 }
