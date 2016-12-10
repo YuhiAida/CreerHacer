@@ -10,20 +10,19 @@ body{
 	width: 100%;
 }
 #pre-footer{
-	display: -webkit-flex;
     display: flex;
 	background-color: #70CAC1;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	padding: 30px 0;
 }
 
 .map-info{
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: column;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    padding-top: 35px;
 }
 #submit{
 	background-color: #E79462;
@@ -31,8 +30,8 @@ body{
 	width: 100%;
 	height: 40px;
 }
-.contacto{
-	
+.contacto-tittle{
+	padding-left: 5px;
 }
 .contacto-form{
  	display: -webkit-flex;
@@ -47,7 +46,24 @@ body{
   border: 0px;
   width: 100%;
   padding: 0.6em 0;
+  height: 20px;
   }
+ .contacto-form-column{
+ 	padding: 0 0 8px 0px;
+ }
+ .contacto-form-checkbox{
+ 	height: 20px;
+ 	width: 20px;
+ 	border-radius: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transform-style: 
+
+ }
+ #comments{
+ 	width: 100%;
+ 	height: 120px;
+ }
  .contacto-button{
   	color: white;
   	font-size: 18px;
@@ -56,7 +72,8 @@ body{
 	background-image: url('assets/Logo_PNG.png'); 
 	width: 33.3333333333%;
 	background-repeat: no-repeat;
-	margin-left: 10px;
+	align-content: center;
+	background-position: center;
 }
 .contacto-redes{
 	width: 33.3333333333%;
@@ -64,11 +81,10 @@ body{
 .contacto-redes a{
 	height: 100%;
 	background-repeat: no-repeat;
-	padding: 0 0 0 15px;
+	padding: 0 5px 0 5px;
 }
-#contacto-redes{
+#contacto-redes a img{
 	padding: 0 0 0 15px;
-
 }
 .footer-container{
 	display: -webkit-flex;
@@ -94,10 +110,12 @@ div .footer-texto{
     width: 33.3333333333%;
 	align-items: flex-end;
 	padding-bottom: 0px;
+	margin-bottom: 15px;
+
 }
 iframe{
 	border-radius: 15px;
-
+}
 .transformadores-sociales{
 
 	position: relative;
