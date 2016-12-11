@@ -4,9 +4,7 @@ body{
 
 }
 .Site-content{
-	display: -webkit-flex;
     display: flex;
-	height: 1000px;
 	width: 100%;
 }
 /*-------------Bernardo-------------*/
