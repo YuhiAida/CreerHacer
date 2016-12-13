@@ -8,14 +8,16 @@ body{
 	width: 100%;
 }
 /*-------------Bernardo-------------*/
-/*------------Seccion presentacion----------*/
+/*------------Secciones----------*/
 
-.presentacion{
+/*comun*/
+.propiedades-section{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	width: 100%;
 }
+/*Presentacion*/
 #navbar{
 	color: #fff;
     position: fixed;
@@ -36,8 +38,12 @@ body{
 	width: 100%;
 	height:100%;
 }
-
-/*------------/Seccion presentacion----------*/
+/*Barrio Abierto*/
+#background-barrio-abierto img{
+	width: 100%;
+	height:100%;
+}
+/*------------/Secciones----------*/
 
 /* SLIDER ALIANZAS*/
 
